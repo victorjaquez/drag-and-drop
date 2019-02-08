@@ -1,0 +1,22 @@
+body {
+  background: #c5a5c5;
+}
+
+.fill {
+  background-image: url("http://source.unsplash.com/random/150x150");
+  position: relative;
+  height: 150px;
+  width: 150px;
+  top: 5px;
+  left: 5px;
+  curser: pointer;
+}
+
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  border: 3px white solid;
+  background-color: white;
+}
